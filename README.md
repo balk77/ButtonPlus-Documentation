@@ -1,3 +1,7 @@
+{% for link in site.data.nav %}
+  <a class="page-link" href="{{ link.url }}">{{ link.title }}</a>
+{% endfor %}
+
 # ButtonPlus-Documentation
 
 * introduction
